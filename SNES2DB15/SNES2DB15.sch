@@ -1,0 +1,161 @@
+EESchema Schematic File Version 4
+LIBS:SNES2DB15-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5CFEBE79
+P 1450 1500
+F 0 "H1" H 1550 1546 50  0000 L CNN
+F 1 "MountingHole" H 1550 1455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1450 1500 50  0001 C CNN
+F 3 "~" H 1450 1500 50  0001 C CNN
+	1    1450 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5CFEBFC8
+P 1450 1700
+F 0 "H2" H 1550 1746 50  0000 L CNN
+F 1 "MountingHole" H 1550 1655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1450 1700 50  0001 C CNN
+F 3 "~" H 1450 1700 50  0001 C CNN
+	1    1450 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x07_Female J3
+U 1 1 5D1EEF95
+P 4650 3600
+F 0 "J3" H 4542 4085 50  0000 C CNN
+F 1 "SNES" H 4542 3994 50  0000 C CNN
+F 2 "VideoGames:SNES_Controller" H 4650 3600 50  0001 C CNN
+F 3 "~" H 4650 3600 50  0001 C CNN
+	1    4650 3600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 5D1F1471
+P 4850 3300
+F 0 "#PWR05" H 4850 3150 50  0001 C CNN
+F 1 "+5V" V 4865 3428 50  0000 L CNN
+F 2 "" H 4850 3300 50  0001 C CNN
+F 3 "" H 4850 3300 50  0001 C CNN
+	1    4850 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5D1F1AD3
+P 4850 3900
+F 0 "#PWR06" H 4850 3650 50  0001 C CNN
+F 1 "GND" V 4855 3772 50  0000 R CNN
+F 2 "" H 4850 3900 50  0001 C CNN
+F 3 "" H 4850 3900 50  0001 C CNN
+	1    4850 3900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4850 3400 2    50   Input ~ 0
+TX_5V
+Text GLabel 4850 3500 2    50   Input ~ 0
+RX_5V
+Text GLabel 4850 3600 2    50   Input ~ 0
+DSR_5V
+Text GLabel 4850 3700 2    50   Input ~ 0
+RTS_5V
+Text GLabel 4850 3800 2    50   Input ~ 0
+DTR_5V
+$Comp
+L Connector:DB15_Female J1
+U 1 1 5DE64B34
+P 6450 3600
+F 0 "J1" H 6604 3646 50  0000 L CNN
+F 1 "DB15_Female" H 6604 3555 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-15_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 6450 3600 50  0001 C CNN
+F 3 " ~" H 6450 3600 50  0001 C CNN
+	1    6450 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 3300 0    50   Input ~ 0
+TX_5V
+Text GLabel 6150 3500 0    50   Input ~ 0
+RX_5V
+Text GLabel 6150 3700 0    50   Input ~ 0
+DSR_5V
+$Comp
+L power:+5V #PWR07
+U 1 1 5DE688EC
+P 6150 4300
+F 0 "#PWR07" H 6150 4150 50  0001 C CNN
+F 1 "+5V" V 6165 4428 50  0000 L CNN
+F 2 "" H 6150 4300 50  0001 C CNN
+F 3 "" H 6150 4300 50  0001 C CNN
+	1    6150 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5DE6928F
+P 6150 2900
+F 0 "#PWR01" H 6150 2650 50  0001 C CNN
+F 1 "GND" V 6155 2772 50  0000 R CNN
+F 2 "" H 6150 2900 50  0001 C CNN
+F 3 "" H 6150 2900 50  0001 C CNN
+	1    6150 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DE6998D
+P 6150 3100
+F 0 "#PWR02" H 6150 2850 50  0001 C CNN
+F 1 "GND" V 6155 2972 50  0000 R CNN
+F 2 "" H 6150 3100 50  0001 C CNN
+F 3 "" H 6150 3100 50  0001 C CNN
+	1    6150 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5DE69D58
+P 6150 3800
+F 0 "#PWR03" H 6150 3550 50  0001 C CNN
+F 1 "GND" V 6155 3672 50  0000 R CNN
+F 2 "" H 6150 3800 50  0001 C CNN
+F 3 "" H 6150 3800 50  0001 C CNN
+	1    6150 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5DE6A178
+P 6150 4000
+F 0 "#PWR04" H 6150 3750 50  0001 C CNN
+F 1 "GND" V 6155 3872 50  0000 R CNN
+F 2 "" H 6150 4000 50  0001 C CNN
+F 3 "" H 6150 4000 50  0001 C CNN
+	1    6150 4000
+	0    1    1    0   
+$EndComp
+NoConn ~ 6150 3900
+NoConn ~ 6150 4100
+NoConn ~ 6150 3000
+NoConn ~ 6150 3200
+NoConn ~ 6150 3400
+NoConn ~ 6150 3600
+NoConn ~ 6150 4200
+$EndSCHEMATC
